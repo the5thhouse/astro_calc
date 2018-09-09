@@ -1,0 +1,53 @@
+"object","sign","deg_decimal","deg_min_sec","angle"
+"Sun","sagittarius",4.13,"4 sag 7'36""",244.13
+"Moon","sagittarius",2.71,"2 sag 42'39""",242.71
+"Mercury","scorpio",26.23,"26 sco 13'40""",236.23
+"Venus","capricorn",20.23,"20 cap 13'44""",290.23
+"Mars","virgo",20.27,"20 vir 16'11""",170.27
+"Jupiter","libra",29.88,"29 lib 52'42""",209.88
+"Saturn","libra",18.72,"18 lib 42'59""",198.72
+"Uranus","sagittarius",0.62,"0 sag 37'1""",240.62
+"Neptune","sagittarius",23.82,"23 sag 49'21""",263.82
+"Pluto","libra",25.77,"25 lib 46'28""",205.77
+"mean Node","cancer",25.07,"25 can 3'55""",115.07
+"true Node","cancer",23.46,"23 can 27'19""",113.46
+"mean Apogee","sagittarius",7.08,"7 sag 5'1""",247.08
+"osc. Apogee","sagittarius",5.96,"5 sag 57'38""",245.96
+"Chiron","taurus",19.67,"19 tau 40'22""",49.67
+"Pholus","aries",2.5,"2 ari 30'14""",2.5
+"Ceres","libra",24.79,"24 lib 47'32""",204.79
+"Pallas","libra",3.68,"3 lib 40'32""",183.68
+"Juno","sagittarius",1.92,"1 sag 55'13""",241.92
+"Vesta","scorpio",28.72,"28 sco 43'20""",238.72
+"intp. Apogee","sagittarius",7.27,"7 sag 15'58""",247.27
+"house1","scorpio",27.51,"27 sco 30'48""",237.51
+"house2","sagittarius",28.59,"28 sag 35'36""",268.59
+"house3","aquarius",4.89,"4 aqu 53'30""",304.89
+"house4","pisces",11.52,"11 pis 31'26""",341.52
+"house5","aries",12.55,"12 ari 32'47""",12.55
+"house6","taurus",7.16,"7 tau 9'43""",37.16
+"house7","taurus",27.51,"27 tau 30'48""",57.51
+"house8","gemini",28.59,"28 gem 35'36""",88.59
+"house9","leo",4.89,"4 leo 53'30""",124.89
+"house10","virgo",11.52,"11 vir 31'26""",161.52
+"house11","libra",12.55,"12 lib 32'47""",192.55
+"house12","scorpio",7.16,"7 sco 9'43""",217.16
+"Ceres","libra",24.79,"24 lib 47'32""",204.79
+"Pallas","libra",3.68,"3 lib 40'32""",183.68
+"Juno","sagittarius",1.92,"1 sag 55'13""",241.92
+"Vesta","scorpio",28.72,"28 sco 43'20""",238.72
+"Astraea","aries",3.55,"3 ari 32'48""",3.55
+"Hebe","virgo",25.2,"25 vir 12'15""",175.2
+"Iris","virgo",28.07,"28 vir 4'8""",178.07
+"Flora","cancer",3.4,"3 can 23'56""",93.4
+"Metis","capricorn",7.8,"7 cap 48'15""",277.8
+"Hygiea","leo",8.18,"8 leo 10'30""",128.18
+"Parthenope","aquarius",12.16,"12 aqu 9'28""",312.16
+"Victoria","sagittarius",1.99,"1 sag 59'27""",241.99
+"Egeria","capricorn",11.93,"11 cap 56'1""",281.93
+"Irene","pisces",4.79,"4 pis 47'18""",334.79
+"Eunomia","gemini",25.57,"25 gem 34'21""",85.57
+"Psyche","virgo",13.15,"13 vir 9'12""",163.15
+"Thetis","aquarius",26.68,"26 aqu 40'50""",326.68
+"Melpomene","pisces",6.56,"6 pis 33'34""",336.56
+"Fortuna","capricorn",2.52,"2 cap 31'12""",272.52

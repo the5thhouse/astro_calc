@@ -29,11 +29,11 @@ natal_lon = -74.85
 #we'll call a python script from command line which will
 #save a csv with the data that we need
 #then we'll read that csv
-py.command <- paste("python3 /home/delores/natal/get_natal.py", natal_year, natal_month, natal_day, natal_hour_dec, 
+py.command <- paste("python3 /home/delores/astro_calc/shiny/natal_table/get_natal.py", natal_year, natal_month, natal_day, natal_hour_dec, 
       natal_lat, natal_lon, natal_filename)
 system(py.command)
 
-this.natal <- fread(paste0("natal_data/", natal_filename, ".csv"))
+this.natal <- fread(paste0(natal_filename, ".csv"))
 
 #little cleaning
 this.natal$V1 <- NULL
@@ -43,8 +43,7 @@ this.natal <- this.natal[object != "Earth"]
 #save the original order
 this.natal[, object_order := 1:nrow(this.natal)]
 
-asteroid.names <- data.table(read.csv("ephemeris/ephe/seasnam.txt", header = FALSE, nrows = 30, stringsAsFactors = FALSE))
-asteroid.names <- data.table(read.csv("ephemeris/ephe/seasnam.txt", header = FALSE, stringsAsFactors = FALSE))
+asteroid.names <- data.table(read.csv("/home/delores/ephemeris/seasnam.txt", header = FALSE, nrows = 30, stringsAsFactors = FALSE))
 asteroid.names[, object := as.character(as.numeric(substr(V1, 1, 6)) + 10000)]
 asteroid.names[, object_name := substr(V1, 9, nchar(V1))]
 asteroid.names[, V1 := NULL]
